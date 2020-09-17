@@ -7,3 +7,7 @@
 .post-date{
   color: gray;
 }
+/* 視覚的にも変化を伝えたいのでグレーアウトするように編集してる */
+div[data-check="true"] {
+  background: #585555;
+}
